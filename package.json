@@ -1,0 +1,21 @@
+{
+    "name": "assignment5",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "cross-env NODE_ENV=development node --watch .",
+        "prod": "cross-env NODE_ENV=production node --watch ."
+    },
+    "dependencies": {
+        "cross-env": "^10.1.0",
+        "dotenv": "^18.0.8",
+        "express": "^5.3.0",
+        "mysql2": "^3.24.6",
+        "sequelize": "^6.37.8"
+    }
+}
